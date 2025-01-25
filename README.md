@@ -1,3 +1,85 @@
+# The Dynamic Inventory Management Table is a simple React-based web application that allows users to manage inventory items efficiently. With its user-friendly interface, the app enables users to add, edit, and delete inventory items, as well as filter and sort the table. This project is ideal for small businesses or individuals who need an easy-to-use solution for managing stock.
+
+# Dynamic Inventory Management Table
+# Screenshots
+
+## Description
+The **Dynamic Inventory Management Table** is a simple React-based web application that allows users to manage inventory items efficiently. With its user-friendly interface, the app enables users to add, edit, and delete inventory items, as well as filter and sort the table. This project is ideal for small businesses or individuals who need an easy-to-use solution for managing stock.
+
+---
+
+## Features
+
+### 1. **Add New Items**
+   - Users can add new inventory items by providing the item name, category, and quantity.
+   - The application validates the input and automatically assigns a unique ID to each new item.
+
+### 2. **Edit Items**
+   - Users can edit the quantity of an existing inventory item directly from the table.
+   - A prompt allows users to input the updated quantity, which is then reflected in real-time.
+
+### 3. **Delete Items**
+   - Unwanted inventory items can be easily removed using the delete button for each item.
+
+### 4. **Filter by Category**
+   - Users can filter inventory items based on their categories using a dropdown menu.
+   - The filtered results are dynamically displayed in the table.
+
+### 5. **Sort Items by Quantity**
+   - The app allows sorting inventory items by quantity in both ascending and descending order.
+   - Users can toggle the sorting order using a dedicated button.
+
+### 6. **Highlight Low-Stock Items**
+   - Items with a quantity below 10 are automatically highlighted in the table with a different background color to indicate low stock.
+
+---
+
+## How to Run the Application
+
+### Prerequisites
+Ensure you have the following installed on your system:
+- Node.js (v14 or above)
+- npm (Node Package Manager)
+
+### Steps
+1. Clone the repository to your local machine:
+   ```bash
+   git clone <repository-url>
+
+## How to Run the Application
+
+# Prerequisites
+
+Ensure you have the following installed on your system:
+
+Node.js (v14 or above)
+npm (Node Package Manager
+
+# Navigate to the project directory
+cd inventory-management
+
+# Install the required dependencies:
+npm install
+
+# Start the development server
+nmp start
+
+# Open the app in your browser at
+http://localhost:3000
+
+
+# Project Structure
+.
+├── public
+│   └── index.html    # Main HTML file
+├── src
+│   ├── App.js        # Main React component
+│   ├── App.css       # Stylesheet for the app
+│   └── index.js      # Application entry point
+├── package.json      # Project configuration
+└── README.md         # Documentation (this file)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
