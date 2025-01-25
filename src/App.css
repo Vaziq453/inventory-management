@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #2c4c71;
+  color: #333;
+}
+
+.App {
+  max-width: 85vw;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #a5b8cc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.header {
+  background-color: #2c8cfb;
+  color: #070707;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 40px 0px 40px 40px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.add-item-form {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 60px;
+  margin-top: 25px;
+}
+
+.add-item-form input {
+  flex: 1;
+  padding: 15px;
+  border: 5px solid #878686;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.add-item-form button {
+  padding: 10px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.add-item-form button:hover {
+  background-color: #43a047;
+}
+
+.filter-sort-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-sort-controls select,
+.filter-sort-controls button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.filter-sort-controls button {
+  background-color: #2196f3;
+  color: white;
+  font-weight: 500;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.filter-sort-controls button:hover {
+  background-color: #1976d2;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.inventory-table th,
+.inventory-table td {
+  border: 1px solid #ddd;
+  padding: 14px;
+  text-align:justify;
+  font-size: 0.95rem;
+}
+
+.inventory-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+.inventory-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.inventory-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.low-stock {
+  background-color: #ffe5e5 !important;
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: opacity 0.2s, background-color 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:first-of-type {
+  background-color: #9abef4;
+  color: #333;
+}
+
+button:last-of-type {
+  background-color: #e52d2d;
+  color: white;
+}
+
+button:last-of-type:hover {
+  background-color: #ce3636;
+}
+
+@media (max-width: 768px) {
+  .add-item-form {
+    flex-direction: column;
+  }
+
+  .filter-sort-controls {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+
+
+
