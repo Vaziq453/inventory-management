@@ -1,8 +1,14 @@
-# The Dynamic Inventory Management Table is a simple React-based web application that allows users to manage inventory items efficiently. With its user-friendly interface, the app enables users to add, edit, and delete inventory items, as well as filter and sort the table. This project is ideal for small businesses or individuals who need an easy-to-use solution for managing stock.
+## The Dynamic Inventory Management Table is a simple React-based web application that allows users to manage inventory items efficiently. With its user-friendly interface, the app enables users to add, edit, and delete inventory items, as well as filter and sort the table. This project is ideal for small businesses or individuals who need an easy-to-use solution for managing stock.
 
-# Dynamic Inventory Management Table
-# Screenshots
-
+## Dynamic Inventory Management Table
+## Screenshots
+### interface
+![image](https://github.com/user-attachments/assets/b5f7e6cc-0b48-4b39-84f1-b87a0d1780e8)
+### adding items
+![image](https://github.com/user-attachments/assets/e3d6d237-ca5a-4442-95b2-4c7f0a71e5b9)
+### list of items available
+![image](https://github.com/user-attachments/assets/bebf287d-85b2-4867-b0bd-2ab43f2c6053)
+here you can see red background on product with low stock (less than 10) and edit the quanitity or delete it
 ## Description
 The **Dynamic Inventory Management Table** is a simple React-based web application that allows users to manage inventory items efficiently. With its user-friendly interface, the app enables users to add, edit, and delete inventory items, as well as filter and sort the table. This project is ideal for small businesses or individuals who need an easy-to-use solution for managing stock.
 
@@ -47,28 +53,27 @@ Ensure you have the following installed on your system:
    git clone <repository-url>
 
 ## How to Run the Application
-
-# Prerequisites
+### Prerequisites
 
 Ensure you have the following installed on your system:
 
 Node.js (v14 or above)
 npm (Node Package Manager
 
-# Navigate to the project directory
+### Navigate to the project directory
 cd inventory-management
 
-# Install the required dependencies:
+### Install the required dependencies:
 npm install
 
-# Start the development server
+### Start the development server
 nmp start
 
-# Open the app in your browser at
+### Open the app in your browser at
 http://localhost:3000
 
 
-# Project Structure
+## Project Structure
 .
 ├── public
 │   └── index.html    # Main HTML file
