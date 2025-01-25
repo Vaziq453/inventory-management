@@ -3,7 +3,7 @@
 ## Dynamic Inventory Management Table
 ## Screenshots
 ### interface
-![image](https://github.com/user-attachments/assets/b5f7e6cc-0b48-4b39-84f1-b87a0d1780e8)
+![image](https://github.com/user-attachments/assets/8ef98567-c9ec-4bcb-abe0-db7cc086085a)
 ### adding items
 ![image](https://github.com/user-attachments/assets/e3d6d237-ca5a-4442-95b2-4c7f0a71e5b9)
 ### list of items available
